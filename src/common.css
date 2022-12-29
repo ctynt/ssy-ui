@@ -1,3 +1,9 @@
+/*
+ * @Author: yxtong
+ * @Date: 2022-12-27 13:01:39
+ * @LastEditors: yxtong
+ * @LastEditTime: 2022-12-28 17:01:12
+ */
 /* 存放项目里的公共的样式 */
 
 /* 屏幕宽度在340px至410px时，基准尺寸使用20px */
@@ -6,17 +12,35 @@ html {
 }
 
 /* 屏幕宽度在小于340px时，基准尺寸使用18px */
-@media (max-width: 340px){
+@media (max-width: 340px) {
     html {
         font-size: 18px;
     }
 }
 
 /* 屏幕宽度大于410px时，基准尺寸使用22px */
-@media (min-width: 410px){
+@media (min-width: 410px) {
     html {
         font-size: 22px;
     }
 }
 
+/* body默认样式 */
+body {
+    max-width: 640px;
+    margin: 0 auto;
+    background: #f8f8f8;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
 
+/* 页面蒙版 */
+.ssy-mask {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 200;
+}

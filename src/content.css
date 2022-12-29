@@ -1,0 +1,21 @@
+/*
+ * @Author: yxtong
+ * @Date: 2022-12-28 16:56:14
+ * @LastEditors: yxtong
+ * @LastEditTime: 2022-12-28 17:01:25
+ */
+/* 内容区 */
+.ssy-content {
+    box-sizing: border-box;
+    position: relative;
+    overflow-y: auto;
+}
+
+/* 根据header和navbar自动适应内容区高度 */
+.ssy-header~.ssy-content {
+    padding-top: 2.3rem;
+}
+
+.ssy-navbar~.ssy-content {
+    padding-bottom: 2.5rem;
+}

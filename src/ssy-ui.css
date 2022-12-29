@@ -1,8 +1,24 @@
+/*
+ * @Author: yxtong
+ * @Date: 2022-12-27 13:02:11
+ * @LastEditors: yxtong
+ * @LastEditTime: 2022-12-28 16:57:38
+ */
+
 /* CSS reset */
 @import './reset.css';
 
 /* 公共样式 */
-@import './common.css'; 
+@import './common.css';
 
 /* 字体图标 */
 @import './icon.css';
+
+/* 标题栏样式 */
+@import './header.css';
+
+/* 内容区样式 */
+@import './content.css';
+
+/* 导航条样式 */
+@import './navbar.css';

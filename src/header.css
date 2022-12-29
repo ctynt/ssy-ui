@@ -1,0 +1,17 @@
+/*
+ * @Author: yxtong
+ * @Date: 2022-12-28 16:56:22
+ * @LastEditors: yxtong
+ * @LastEditTime: 2022-12-28 16:58:54
+ */
+/* 头部导航条 */
+.ssy-header {
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 640px;
+    height: 2.3rem;
+    top: 0;
+    z-index: 200;
+    border-bottom: 1px solid #ddd;
+}

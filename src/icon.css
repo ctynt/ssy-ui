@@ -1,10 +1,11 @@
+/*
+ * @Author: yxtong
+ * @Date: 2022-12-27 13:55:18
+ * @LastEditors: yxtong
+ * @LastEditTime: 2022-12-28 16:53:54
+ */
 /* 字体图标，依赖font-awesome */
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
-
-.fa {
-    display:inline-block;
-    text-align: center;
-}
 
 /* 图标默认样式 */
 .fa {

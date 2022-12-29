@@ -1,6 +1,9 @@
-/* reset.css文件用来存放CSS-Reset的内容。
-CSS-Reset的作用是覆盖浏览器的默认样式，
-从而排除浏览器默认样式的影响。 */
+/*
+ * @Author: yxtong
+ * @Date: 2022-12-27 13:01:53
+ * @LastEditors: yxtong
+ * @LastEditTime: 2022-12-28 16:54:11
+ */
 
 /* 去掉所有元素的内外边距 */
 html,
@@ -38,8 +41,8 @@ video {
 /* 统一全局字体 */
 
 body {
-    font-family: -apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC",
-    "Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif
+    font-family: -apple-system-font, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC",
+        "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif
 }
 
 /* 列表元素去掉默认的列表样式 */
