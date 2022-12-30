@@ -2,7 +2,7 @@
  * @Author: yxtong
  * @Date: 2022-12-28 16:56:14
  * @LastEditors: yxtong
- * @LastEditTime: 2022-12-28 17:01:25
+ * @LastEditTime: 2022-12-30 17:11:03
  */
 /* 内容区 */
 .ssy-content {
@@ -19,3 +19,32 @@
 .ssy-navbar~.ssy-content {
     padding-bottom: 2.5rem;
 }
+
+/* 内容分区 -- Panel 面板 */
+/* Panel 标题 */
+.ssy-content .ssy-panel-title {
+    height: 1.8rem;
+    line-height: 1.8rem;
+    padding-left: 1rem;
+    color: #aaa;
+    background: #fff;
+    border-top: 1px solid #eee;
+    font-size: 14px;
+    font-weight: normal;
+  }
+  
+  /* Panel 内容区 */
+  .ssy-content .ssy-panel-body {
+    position: relative;
+    margin-bottom: .6rem;
+    padding: .6rem 1rem;
+    background: #fff;
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+  }
+  
+  /* 可手动设置内容区是否有内边距 */
+  .ssy-content .ssy-panel-body.no-padding {
+    padding: 0;
+  }
