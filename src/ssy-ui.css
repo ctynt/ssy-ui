@@ -2,7 +2,7 @@
  * @Author: yxtong
  * @Date: 2022-12-27 13:02:11
  * @LastEditors: yxtong
- * @LastEditTime: 2022-12-31 15:09:36
+ * @LastEditTime: 2022-12-31 17:34:04
  */
 
 /* CSS reset */
@@ -28,3 +28,6 @@
 
 /* 按钮样式 */
 @import './button.css';
+
+/* 搜索栏的样式 */
+@import './search.css';
