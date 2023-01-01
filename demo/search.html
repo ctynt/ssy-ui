@@ -2,7 +2,7 @@
  * @Author: yxtong
  * @Date: 2022-12-31 17:32:50
  * @LastEditors: yxtong
- * @LastEditTime: 2022-12-31 17:41:04
+ * @LastEditTime: 2022-12-31 17:47:22
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -46,19 +46,20 @@
         </div>
         <p class="content">内容区</p>
     </div>
-</body>
-<script>
-    window.onload = function () {
-        let ttSearch = document.querySelector('.ssy-search');
-        // 输入框被选中，进入搜索模式
-        document.querySelector('.ssy-search-input').addEventListener('focus', function () {
-            ttSearch.classList.add('on-focus');
-        })
-        // 点击取消，返回正常模式
-        document.querySelector('.ssy-search-cancel').addEventListener('click', function () {
-            ttSearch.classList.remove('on-focus');
-        })
-    }
-</script>
 
+    <script>
+        window.onload = function () {
+            let ttSearch = document.querySelector('.ssy-search');
+            // 输入框被选中，进入搜索模式
+            document.querySelector('.ssy-search-input').addEventListener('focus', function () {
+                ttSearch.classList.add('on-focus');
+            })
+            // 点击取消，返回正常模式
+            document.querySelector('.ssy-search-cancel').addEventListener('click', function () {
+                ttSearch.classList.remove('on-focus');
+            })
+        }
+    </script>
+    
+</body>
 </html>
