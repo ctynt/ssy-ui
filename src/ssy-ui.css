@@ -2,7 +2,7 @@
  * @Author: yxtong
  * @Date: 2022-12-27 13:02:11
  * @LastEditors: yxtong
- * @LastEditTime: 2023-01-02 17:59:24
+ * @LastEditTime: 2023-01-02 23:23:28
  */
 
 /* CSS reset */
@@ -40,3 +40,6 @@
 
 /* 菜单组件的样式 */ 
 @import './menu.css'; 
+
+/* 模态框组件的样式 */ 
+@import './modal.css'; 
