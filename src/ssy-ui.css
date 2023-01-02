@@ -2,7 +2,7 @@
  * @Author: yxtong
  * @Date: 2022-12-27 13:02:11
  * @LastEditors: yxtong
- * @LastEditTime: 2023-01-02 12:58:20
+ * @LastEditTime: 2023-01-02 17:59:24
  */
 
 /* CSS reset */
@@ -37,3 +37,6 @@
 
 /* 网格组件的样式 */ 
 @import './grid.css'; 
+
+/* 菜单组件的样式 */ 
+@import './menu.css'; 
