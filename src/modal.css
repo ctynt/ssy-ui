@@ -2,7 +2,7 @@
  * @Author: yxtong
  * @Date: 2023-01-02 23:23:45
  * @LastEditors: yxtong
- * @LastEditTime: 2023-01-02 23:34:30
+ * @LastEditTime: 2023-01-05 17:32:58
  */
 /* 模态框 */
 .ssy-modal {
@@ -75,6 +75,7 @@
     left: 0;
     right: 0;
     width: 1.3rem;
+    height:1.3rem;
     line-height: 1.3rem;
     margin: auto;
     bottom: -3rem;
