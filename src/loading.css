@@ -2,7 +2,7 @@
  * @Author: yxtong
  * @Date: 2023-01-05 16:44:04
  * @LastEditors: yxtong
- * @LastEditTime: 2023-01-05 17:35:34
+ * @LastEditTime: 2023-01-05 18:25:42
  */
 /* 页面加载提示组件 */
 .ssy-loading {
@@ -60,19 +60,3 @@
     color: rgba(0, 0, 0, .2);
 }
 
-/* 垂直方向上振动 */
-.fa-vibrate-y{
-    animation: fa-vibrate-y 1.5s infinite ease-in;
-}
-/* 振动轨迹 */
-@keyframes fa-vibrate-y{
-    0% {
-        transform: translateY(-10%);
-    }
-    50% {
-        transform: translateY(10%);
-    }
-    100% {
-        transform: translateY(-10%);
-    }
-}
