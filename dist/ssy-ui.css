@@ -130,36 +130,18 @@ body {
   }
 /* 垂直方向上振动 */
 .fa-vibrate-y{
-  -webkit-animation: fa-vibrate-y 1.5s infinite ease-in;
-          animation: fa-vibrate-y 1.5s infinite ease-in;
+  animation: fa-vibrate-y 1.5s infinite ease-in;
 }
 /* 振动轨迹 */
-@-webkit-keyframes fa-vibrate-y{
-  0% {
-      -webkit-transform: translateY(-10%);
-              transform: translateY(-10%);
-  }
-  50% {
-      -webkit-transform: translateY(10%);
-              transform: translateY(10%);
-  }
-  100% {
-      -webkit-transform: translateY(-10%);
-              transform: translateY(-10%);
-  }
-}
 @keyframes fa-vibrate-y{
   0% {
-      -webkit-transform: translateY(-10%);
-              transform: translateY(-10%);
+      transform: translateY(-10%);
   }
   50% {
-      -webkit-transform: translateY(10%);
-              transform: translateY(10%);
+      transform: translateY(10%);
   }
   100% {
-      -webkit-transform: translateY(-10%);
-              transform: translateY(-10%);
+      transform: translateY(-10%);
   }
 }
 /* 标题栏样式 */
@@ -171,11 +153,9 @@ body {
  */
 /* 头部导航条 */
 .ssy-header {
-    display: -webkit-box;
     display: flex;
     position: fixed;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     max-width: 640px;
     height: 2.3rem;
@@ -194,8 +174,7 @@ body {
 }
 /* 中间标题部分 */
 .ssy-header>.title {
-    -webkit-box-flex: 1;
-            flex-grow: 1;
+    flex-grow: 1;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -214,8 +193,7 @@ body {
  */
 /* 内容区 */
 .ssy-content {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     position: relative;
     overflow-y: auto;
 }
@@ -261,11 +239,9 @@ body {
  */
 /* 底部导航栏 */
 .ssy-navbar {
-    display: -webkit-box;
     display: flex;
     position: fixed;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     bottom: 0;
     width: 100%;
     max-width: 640px;
@@ -277,8 +253,7 @@ body {
 }
 /* 导航项目 */
 .ssy-navbar>.navbar-item {
-    -webkit-box-flex: 1;
-            flex: 1;
+    flex: 1;
     color: #808080;
 }
 /* 被选中的样式 */
@@ -304,7 +279,6 @@ body {
  */
 /* 表单的单行容器 */
 .ssy-form-item {
-    display: -webkit-box;
     display: flex;
     position: relative;
     padding-left: 1rem;
@@ -325,8 +299,7 @@ body {
 }
 /* 表单内容区 */
 .ssy-form-item>.ssy-form-body {
-    -webkit-box-flex: 1;
-            flex: 1;
+    flex: 1;
 }
 /* 输入框 */
 .ssy-form-item>.ssy-form-body>.ssy-input {
@@ -366,8 +339,7 @@ body {
 }
 /* 自定义单选 */
 .ssy-form-item>.ssy-radio {
-    -webkit-box-flex: 1;
-            flex: 1;
+    flex: 1;
     font-size: .8rem;
     line-height: 2rem;
 }
@@ -388,8 +360,7 @@ body {
 }
 /* 自定义多选 */
 .ssy-form-item>.ssy-check {
-    -webkit-box-flex: 1;
-            flex: 1;
+    flex: 1;
     font-size: .8rem;
     line-height: 2rem;
 }
@@ -429,8 +400,7 @@ body {
     width: 10rem;
     margin: 0 auto;
     padding: .5rem 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     border: 1px solid #ccc;
     font-size: .7rem;
     text-align: center;
@@ -439,10 +409,7 @@ body {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    user-select: none;
 }
 /* 定制主操作按钮样式 */
 .ssy-btn.ssy-btn-primary {
@@ -481,6 +448,7 @@ body {
     max-width: 640px;
     margin: 0 auto;
     background: #f8f8f8;
+    z-index: 110;
 }
 /* 搜索状态中，覆盖内容区 */
 .ssy-search.on-focus {
@@ -501,23 +469,19 @@ body {
 }
 /* 搜索栏中的表单 */
 .ssy-search>.ssy-search-form {
-    display: -webkit-box;
     display: flex;
     height: 2.3rem;
-    -webkit-box-align: center;
-            align-items: center;
+    align-items: center;
 }
 /* 输入框的容器 */
 .ssy-search>.ssy-search-form>.ssy-search-input-wrap {
-    -webkit-box-flex: 1;
-            flex: 1;
+    flex: 1;
     position: relative;
     padding: 0 .5rem;
 }
 /* 取消按钮 */
 .ssy-search>.ssy-search-form>.ssy-search-cancel {
-    -webkit-box-flex: 0;
-            flex: 0 0 2.2rem;
+    flex: 0 0 2.2rem;
     padding-right: .5rem;
     text-align: center;
     font-size: .7rem;
@@ -541,8 +505,7 @@ body {
 }
 /* 输入框的样式 */
 .ssy-search .ssy-search-input {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     height: 1.6rem;
     border: none;
@@ -591,7 +554,6 @@ body {
 /* 列表的样式 */
 /* 列表里每一行的容器 */
 .ssy-list>.ssy-list-item {
-    display: -webkit-box;
     display: flex;
     position: relative;
     padding: .5rem 1rem;
@@ -602,8 +564,7 @@ body {
   }
 /* 列表项的图片容器 */
 .ssy-list .item-img-wrap{    
-    -webkit-box-flex: 0;    
-            flex: 0 0 5rem;     
+    flex: 0 0 5rem;     
     height: 5rem;    
     margin-right: .5rem;   
     border-radius: .2rem;     
@@ -617,15 +578,10 @@ body {
 /* 列表项的文字区域 */
 .ssy-list .item-content-wrap{ 
     position: relative;    
-    -webkit-box-flex: 1;    
-            flex: 1;    
-    display: -webkit-box;    
+    flex: 1;    
     display: flex;   
-    -webkit-box-orient: vertical;   
-    -webkit-box-direction: normal;   
-            flex-direction: column;   
-    -webkit-box-pack: justify;   
-            justify-content: space-between; 
+    flex-direction: column;   
+    justify-content: space-between; 
   }
 /* 列表项的标题 */
 .ssy-list .item-content-wrap > .item-title{
@@ -658,7 +614,6 @@ body {
  */
 /* 网格组件 */
 .ssy-grid {
-    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
     border-top: 1px solid #ddd;
@@ -666,10 +621,8 @@ body {
 /* 网格中的格子 */
 .ssy-grid>.ssy-grid-item {
     position: relative;
-    -webkit-box-flex: 1;
-            flex: 1 1 33%;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    flex: 1 1 33%;
+    box-sizing: border-box;
     padding: 1.2rem 0;
     text-align: center;
     border-right: 1px solid #ddd;
@@ -738,19 +691,16 @@ body {
  */
 /* 菜单项 */
 .ssy-menu>.ssy-menu-item {
-    display: -webkit-box;
     display: flex;
     height: 2.3rem;
     padding: 0 1rem;
-    -webkit-box-align: center;
-            align-items: center;
+    align-items: center;
     border-bottom: 1px solid #eee;
     font-size: .8rem;
 }
 /* 菜单名称 */
 .ssy-menu>.ssy-menu-item>.ssy-menu-name {
-    -webkit-box-flex: 1;
-            flex: 1;
+    flex: 1;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -774,15 +724,13 @@ body {
 /* 切换开关 */
 .ssy-menu>.ssy-menu-item>.ssy-switch {
     position: relative;
-    -webkit-box-sizing: content-box;
-            box-sizing: content-box;
+    box-sizing: content-box;
     width: 2.6rem;
     height: 1.4rem;
     border: 1px solid #ccc;
     outline: 0;
     border-radius: .75rem;
     background-color: rgba(0, 0, 0, 0.1);
-    -webkit-transition: background-color .3s, border .3s;
     transition: background-color .3s, border .3s;
     /* 去掉webkit内核里默认的样式 */
     -webkit-appearance: none;
@@ -804,9 +752,7 @@ body {
     height: 1.4rem;
     border-radius: .7rem;
     background-color: #FFFFFF;
-    -webkit-box-shadow: 0 0 2px #999;
-            box-shadow: 0 0 2px #999;
-    -webkit-transition: left .3s;
+    box-shadow: 0 0 2px #999;
     transition: left .3s;
 }
 /* 选中状态下，更改圆形按钮的位置 */
@@ -834,8 +780,7 @@ body {
     width: 75%;
     max-width: 480px;
     top: 45%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     left: 0;
     right: 0;
     margin: auto;
@@ -853,7 +798,6 @@ body {
 }
 /* 模态框尾部 */
 .ssy-modal .ssy-modal-footer {
-    display: -webkit-box;
     display: flex;
     border-top: 1px solid #ddd;
 }
@@ -930,8 +874,7 @@ body {
     margin: 1.5rem auto 1rem;
     width: 12.5rem;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     text-align: center;
     color: #999;
     height: 1rem;
@@ -964,8 +907,7 @@ body {
     position: fixed;
     width: 7rem;
     top: 45%;
-    -webkit-transform: translateY(-40%);
-            transform: translateY(-40%);
+    transform: translateY(-40%);
     left: 0;
     right: 0;
     margin: auto;
@@ -975,17 +917,13 @@ body {
     text-align: center;
     background: rgba(0, 0, 0, .6);
     border-radius: .4rem;
-    -webkit-transition: opacity .3s, -webkit-transform .3s;
-    transition: opacity .3s, -webkit-transform .3s;
     transition: transform .3s, opacity .3s;
-    transition: transform .3s, opacity .3s, -webkit-transform .3s;
     z-index: 301;
   }
 /* 显示Toast组件 */
 .ssy-toast.show {
     opacity: 1;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
   }
 /* Toast组件中的图标 */
 .ssy-toast>.ssy-toast-icon {
@@ -1012,25 +950,19 @@ body {
     max-width: 640px;
     margin: auto;
     background: #eee;
-    -webkit-transition: -webkit-transform .3s ease;
-    transition: -webkit-transform .3s ease;
     transition: transform .3s ease;
-    transition: transform .3s ease, -webkit-transform .3s ease;
-    -webkit-transform: translateY(100%);
-            transform: translateY(100%);
+    transform: translateY(100%);
     z-index: 301;
 }
 /* 菜单弹出的时候，改变容器位移 */
 .ssy-action-sheet.show .ssy-action-sheet-wrap {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
 }
 /* 默认隐藏蒙版 */
 .ssy-action-sheet>.ssy-mask {
     opacity: 0;
     /* 屏蔽元素的点击事件 */
     pointer-events: none;
-    -webkit-transition: opacity .3s ease;
     transition: opacity .3s ease;
 }
 /* 菜单弹出的时候显示蒙版 */
@@ -1041,18 +973,15 @@ body {
 /* 弹出菜单头部 */
 .ssy-action-sheet .ssy-action-sheet-header {
     padding: 0 2rem;
-    display: -webkit-box;
     display: flex;
-    -webkit-box-align: center;
-            align-items: center;
+    align-items: center;
     text-align: center;
     height: 3rem;
     background: #fff;
 }
 /* 头部标题，用来描述菜单作用 */
 .ssy-action-sheet .ssy-action-sheet-header>.ssy-action-sheet-title {
-    -webkit-box-flex: 1;
-            flex: 1;
+    flex: 1;
     font-size: .7rem;
     line-height: 1rem;
     font-weight: normal;
@@ -1112,8 +1041,7 @@ body {
 .ssy-article .ssy-article-unfold-btn {
   display: none;
   position: absolute;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   left: 0;
   right: 0;
   bottom: 0;
@@ -1122,7 +1050,6 @@ body {
   text-align: center;
   font-size: 1.5rem;
   color: #e0652f;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0)), to(#fff));
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0, #fff 100%);
 }
 /* 控制展开按钮的显示 */
